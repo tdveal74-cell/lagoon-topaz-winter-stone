@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/canvas",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "EditForge",
+      "hasCanvas": false,
+      "bodyTextLen": 1264,
+      "bodyTextHash": "66d17806f74244eb836c8d86832020c3ba4bf21070cdf61175c01667e18e1cdc",
+      "bodyTextPrefix": "EDITFORGE CANVAS AGENT DAILIES TIMELINE RUBRIC PLATES WORKFLOWS ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/house/canvas.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "EditForge",
+      "hasCanvas": false,
+      "bodyTextLen": 523,
+      "bodyTextHash": "84f21aeab1edb62b523dfa1c3996473d0c0364db2d377212be308813856459c9",
+      "bodyTextPrefix": "EDITFORGE CANVAS AGENT DAILIES TIMELINE RUBRIC PLATES Film still",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/house/canvas-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/house/canvas.json"
+}

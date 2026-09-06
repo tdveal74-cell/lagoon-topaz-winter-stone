@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/canvas",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "EditForge",
+      "hasCanvas": false,
+      "bodyTextLen": 1079,
+      "bodyTextHash": "00e9e6097f0a2491898590c3bab22dceb8d91b31e0619cbaa173028fb66a9910",
+      "bodyTextPrefix": "EDITFORGE Canvas Dailies Timeline Rubric WORKFLOWS Film stills F",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/canvas-smoke.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "EditForge",
+      "hasCanvas": false,
+      "bodyTextLen": 170,
+      "bodyTextHash": "06a0d385c390f05a92dcc26012c9aa9e7455b6d8ddeeaf6d976702e6df2590d6",
+      "bodyTextPrefix": "EDITFORGE Canvas Dailies Timeline Rubric CANVAS Stills 8 · Motio",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/canvas-smoke-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/canvas-smoke.json"
+}

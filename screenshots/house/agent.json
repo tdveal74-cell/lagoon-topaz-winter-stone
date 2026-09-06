@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/agent",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "EditForge",
+      "hasCanvas": false,
+      "bodyTextLen": 299,
+      "bodyTextHash": "c36e372785e3f09322ef8d97e243aec1aae0ad002cafdc46c824f280599007b9",
+      "bodyTextPrefix": "EDITFORGE CANVAS AGENT DAILIES TIMELINE RUBRIC AGENT Queue Confi",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/house/agent.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "EditForge",
+      "hasCanvas": false,
+      "bodyTextLen": 299,
+      "bodyTextHash": "c36e372785e3f09322ef8d97e243aec1aae0ad002cafdc46c824f280599007b9",
+      "bodyTextPrefix": "EDITFORGE CANVAS AGENT DAILIES TIMELINE RUBRIC AGENT Queue Confi",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/house/agent-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/house/agent.json"
+}

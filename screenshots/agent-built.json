@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8081/agent",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "EditForge",
+      "hasCanvas": false,
+      "bodyTextLen": 338,
+      "bodyTextHash": "15269115870580d27bc428a207042fcc5345c1c5b96e7464b4eeb81378df3f0f",
+      "bodyTextPrefix": "EDITFORGE Canvas Agent Dailies Timeline Rubric AGENT Floor jobs ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/agent-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "EditForge",
+      "hasCanvas": false,
+      "bodyTextLen": 338,
+      "bodyTextHash": "15269115870580d27bc428a207042fcc5345c1c5b96e7464b4eeb81378df3f0f",
+      "bodyTextPrefix": "EDITFORGE Canvas Agent Dailies Timeline Rubric AGENT Floor jobs ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/agent-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/agent-built.json"
+}

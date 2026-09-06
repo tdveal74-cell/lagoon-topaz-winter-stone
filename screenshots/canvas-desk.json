@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/canvas",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "EditForge",
+      "hasCanvas": false,
+      "bodyTextLen": 1257,
+      "bodyTextHash": "0bf3749f1dd76c6fe19add147680fac3c6dbbb4a2fbe6fb7800aa52de865c421",
+      "bodyTextPrefix": "EDITFORGE Canvas Agent Dailies Timeline Rubric WORKFLOWS Film st",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/canvas-desk.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "EditForge",
+      "hasCanvas": false,
+      "bodyTextLen": 516,
+      "bodyTextHash": "6f71cf715afd1d1544049b2bf955461c192f499dfb2082def34d425a665f2b1c",
+      "bodyTextPrefix": "EDITFORGE Canvas Agent Dailies Timeline Rubric Film stills User-",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/canvas-desk-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/canvas-desk.json"
+}

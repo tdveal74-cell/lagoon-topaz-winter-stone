@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8081/dailies",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "EditForge",
+      "hasCanvas": false,
+      "bodyTextLen": 473,
+      "bodyTextHash": "807045a0d2057ef264895c1583e7496670a88f0c419825af6aba5dc8a45131c0",
+      "bodyTextPrefix": "EDITFORGE CANVAS AGENT DAILIES TIMELINE RUBRIC WIDE STREET TALKI",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/house/dailies-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "EditForge",
+      "hasCanvas": false,
+      "bodyTextLen": 473,
+      "bodyTextHash": "807045a0d2057ef264895c1583e7496670a88f0c419825af6aba5dc8a45131c0",
+      "bodyTextPrefix": "EDITFORGE CANVAS AGENT DAILIES TIMELINE RUBRIC WIDE STREET TALKI",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/house/dailies-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/house/dailies-built.json"
+}

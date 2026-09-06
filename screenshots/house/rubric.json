@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/rubric",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "EditForge",
+      "hasCanvas": false,
+      "bodyTextLen": 612,
+      "bodyTextHash": "5e173ce9a6b70f6c58b3b2abb01b2d3caf1246f0d1c0418e25c17d86304bbb83",
+      "bodyTextPrefix": "EDITFORGE CANVAS AGENT DAILIES TIMELINE RUBRIC RUBRIC Gate Targe",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/house/rubric.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "EditForge",
+      "hasCanvas": false,
+      "bodyTextLen": 612,
+      "bodyTextHash": "5e173ce9a6b70f6c58b3b2abb01b2d3caf1246f0d1c0418e25c17d86304bbb83",
+      "bodyTextPrefix": "EDITFORGE CANVAS AGENT DAILIES TIMELINE RUBRIC RUBRIC Gate Targe",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/house/rubric-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/house/rubric.json"
+}

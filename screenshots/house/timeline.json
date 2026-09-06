@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/timeline",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "EditForge",
+      "hasCanvas": false,
+      "bodyTextLen": 172,
+      "bodyTextHash": "dd2fb677fad6686e8223c7c6ae3090c4697804050b180e46280d36c512b675bb",
+      "bodyTextPrefix": "EDITFORGE CANVAS AGENT DAILIES TIMELINE RUBRIC 01 · WIDE 2.2S HO",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/house/timeline.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "EditForge",
+      "hasCanvas": false,
+      "bodyTextLen": 172,
+      "bodyTextHash": "dd2fb677fad6686e8223c7c6ae3090c4697804050b180e46280d36c512b675bb",
+      "bodyTextPrefix": "EDITFORGE CANVAS AGENT DAILIES TIMELINE RUBRIC 01 · WIDE 2.2S HO",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/house/timeline-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/house/timeline.json"
+}

@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "EditForge",
+      "hasCanvas": false,
+      "bodyTextLen": 1179,
+      "bodyTextHash": "839b5866401bdc4cbc17d1b396b049754f68e9a815bebce3aa624a05308d1e21",
+      "bodyTextPrefix": "EDITFORGE CREATE · FINISH CREATE Make the plate. Brief. Still. M",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/scroll-home.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "EditForge",
+      "hasCanvas": false,
+      "bodyTextLen": 1179,
+      "bodyTextHash": "839b5866401bdc4cbc17d1b396b049754f68e9a815bebce3aa624a05308d1e21",
+      "bodyTextPrefix": "EDITFORGE CREATE · FINISH CREATE Make the plate. Brief. Still. M",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/scroll-home-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/scroll-home.json"
+}

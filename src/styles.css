@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #f8f5f0;
+  --color-surface: #ffffff;
+  --color-paper: #f0ebe3;
+  --color-sunken: #ede7dd;
+  --color-navy: #0a1628;
+  --color-navy-800: #0f1c30;
+  --color-navy-700: #16263e;
+  --color-navy-600: #1f3252;
+  --color-fg: #0a1628;
+  --color-muted: #5c6a7a;
+  --color-faint: #8a93a0;
+  --color-amber: #d4a017;
+  --color-amber-deep: #b8890f;
+  --color-border: #e5dfd5;
+  --color-border-strong: #d4cbbc;
+  --color-canvas: #0a1628;
+  --color-on-navy: #f8f5f0;
+
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", monospace;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  --shadow-border: 0 0 0 1px rgba(10, 22, 40, 0.06),
+    0 1px 2px -1px rgba(10, 22, 40, 0.06), 0 2px 4px 0 rgba(10, 22, 40, 0.04);
+  --shadow-border-hover: 0 0 0 1px rgba(10, 22, 40, 0.1),
+    0 1px 2px -1px rgba(10, 22, 40, 0.08), 0 2px 8px 0 rgba(10, 22, 40, 0.06);
+  --shadow-card: 0 1px 2px rgba(10, 22, 40, 0.04),
+    0 4px 16px rgba(10, 22, 40, 0.05);
+  --shadow-lifted: 0 2px 4px rgba(10, 22, 40, 0.06),
+    0 12px 32px rgba(10, 22, 40, 0.1);
+
+  --ease-smooth-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-flagship: cubic-bezier(0.2, 0, 0, 1);
+  --motion-micro: 80ms;
+  --motion-quick: 150ms;
+  --motion-fast: 180ms;
+  --motion-medium: 240ms;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    text-rendering: optimizeLegibility;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-amber) 28%, transparent);
+    color: var(--color-navy);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-amber);
+    outline-offset: 2px;
+  }
+
+  img {
+    outline: 1px solid color-mix(in oklab, var(--color-navy) 10%, transparent);
+    outline-offset: -1px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@keyframes forge-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+.job-running {
+  animation: forge-pulse 1.2s var(--ease-smooth-out) infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+html:not(.forge-landing):not(.forge-house) body {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+}
+
+html:not(.forge-landing):not(.forge-house) img {
+  max-width: 100%;
+}

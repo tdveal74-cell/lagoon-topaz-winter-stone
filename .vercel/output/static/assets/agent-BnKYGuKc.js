@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-CEnj1x2X.js";import{t}from"./agent-dock-COX0tTUk.js";import{t as n}from"./room-shell-C3HVZKsx.js";var r=e();function i(){return(0,r.jsx)(n,{id:`forge-agent`,className:`live-floor`,progress:!1,children:(0,r.jsx)(t,{variant:`page`})})}export{i as component};
